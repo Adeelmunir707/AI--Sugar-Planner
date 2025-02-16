@@ -58,4 +58,11 @@ if st.sidebar.button("Generate Meal Plan"):
     meal_plan = get_meal_plan(api_key, fasting_sugar, pre_meal_sugar, post_meal_sugar, dietary_preferences)
     st.write("Based on your sugar levels and dietary preferences, here is a personalized meal plan:")
     st.markdown(meal_plan)
+
+
+st.write("\n" * 15)  # Increase the number of new lines for more gap
+# Add a bold line above the footer
+st.markdown("<hr style='border: 2px solid black;'>", unsafe_allow_html=True)
+# Footer content
+st.write("© 2025 Adeel Munir | Made With ❤️ in Pakistan")
         
