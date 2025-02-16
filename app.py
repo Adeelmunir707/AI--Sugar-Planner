@@ -36,11 +36,11 @@ def get_meal_plan(api_key, fasting_sugar, pre_meal_sugar, post_meal_sugar, dieta
     return itinerary
 
 # Streamlit app
-st.title("GlucoGuide")
+st.title("Bite Balance")
 
 st.write("""
-**GlucoGuide** is a personalized meal planning tool designed specifically for diabetic patients. 
-By entering your sugar levels and dietary preferences, GlucoGuide generates meal plans that are 
+**Bite Balance** an AI personalized meal planning tool, designed specifically for diabetic patients. 
+Enter your sugar levels and dietary preferences, Bite Balance generates meal plans that are 
 tailored to help you manage your blood sugar levels effectively.
 """)
 
