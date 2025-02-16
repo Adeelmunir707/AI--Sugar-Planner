@@ -20,7 +20,7 @@ def get_meal_plan(api_key, fasting_sugar, pre_meal_sugar, post_meal_sugar, dieta
     # Call Claude AI API
     message = client.messages.create(
         model="claude-3-5-sonnet-20240620",
-        max_tokens=250,
+        max_tokens=400,
         temperature=0.7,
         system="You are a world-class nutritionist who specializes in diabetes management.",
         messages=[
