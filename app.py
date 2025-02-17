@@ -48,6 +48,4 @@ st.write("\n" * 15)
 # Add a bold line above the footer
 st.markdown("<hr style='border: 2px solid black;'>", unsafe_allow_html=True)
 # Footer content
-st.write("Copy
-
-         © 2025 Adeel Munir | Made With ❤️ in Pakistan")
+st.write("Copy© 2025 Adeel Munir | Made With ❤️ in Pakistan")
