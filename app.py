@@ -21,12 +21,12 @@ def get_meal_plan(fasting_sugar, pre_meal_sugar, post_meal_sugar, dietary_prefer
     return response.text
 
 # Streamlit app
-st.set_page_config(page_title="Bite Balance", page_icon="🥗", layout="centered")
+st.set_page_config(page_title="Diet Balance", page_icon="🥗", layout="centered")
 st.title("Bite Balance")
 
 st.write("""
-**Bite Balance** an AI personalized meal planning tool designed specifically for diabetic patients. 
-By entering your sugar levels and dietary preferences, Bite Balance generates meal plans that are 
+**Diet Balance** an AI personalized meal planning tool designed specifically for diabetic patients. 
+By entering your sugar levels and dietary preferences, Diet Balance generates meal plans that are 
 tailored to help you manage your blood sugar levels effectively.
 """)
 
