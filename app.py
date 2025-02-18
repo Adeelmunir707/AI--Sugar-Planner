@@ -22,7 +22,7 @@ def get_meal_plan(fasting_sugar, pre_meal_sugar, post_meal_sugar, dietary_prefer
 
 # Streamlit app
 st.set_page_config(page_title="Diet Balance", page_icon="🥗", layout="centered")
-st.title("Bite Balance")
+st.title("Diet Balance")
 
 st.write("""
 **Diet Balance** an AI personalized meal planning tool designed specifically for diabetic patients. 
