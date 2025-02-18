@@ -21,6 +21,7 @@ def get_meal_plan(fasting_sugar, pre_meal_sugar, post_meal_sugar, dietary_prefer
     return response.text
 
 # Streamlit app
+st.set_page_config(page_title="Bite Balance", page_icon="🥗", layout="centered")
 st.title("Bite Balance")
 
 st.write("""
