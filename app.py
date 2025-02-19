@@ -19,7 +19,7 @@ def get_meal_plan(fasting_sugar, pre_meal_sugar, post_meal_sugar, dietary_prefer
         "Please provide a personalized meal plan that can help me manage my blood sugar levels effectively."
     )
 
-    response = generator(prompt, max_length=300, do_sample=True, temperature=0.7)
+    response = generator(prompt, max_length=500, do_sample=True, temperature=0.7)
     return response[0]["generated_text"]
 
 # Streamlit App
