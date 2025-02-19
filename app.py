@@ -31,6 +31,7 @@ st.write("""
 By entering your sugar levels and dietary preferences, Diet Balance generates personalized meal plans 
 to help manage blood sugar levels effectively.
 """)
+st.markdown("<hr style='border: 1px solid black;'>", unsafe_allow_html=True)
 
 # Sidebar inputs
 st.sidebar.header("Enter Your Details")
